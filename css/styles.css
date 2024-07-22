@@ -107,6 +107,12 @@ h1{
     margin-bottom: 15px;
 }
 
+.botao input:hover{
+    cursor: pointer;
+    opacity: 0.9;
+    transition: 1s;
+}
+
 .verificar{
     color: white;
     display: flex;
@@ -149,4 +155,5 @@ body p{
 
 body p a{
     text-decoration: none;
+    color: blue;
 }
