@@ -50,6 +50,13 @@ header a img{
     height: auto;
 }
 
+.logo-facebook a{
+    text-decoration: none;
+    color: #666;
+    bottom: 5px;
+    font-size: 14px;
+}
+
 h1{
     color: white;
     font-size: 30px;
@@ -97,4 +104,49 @@ h1{
     font-size: 15px;
     font-weight: bold;
     outline: none;
+    margin-bottom: 15px;
+}
+
+.verificar{
+    color: white;
+    display: flex;
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.verificar label{
+    margin-left: 5px;
+    font-size: 13px;
+    margin-top: 2px;
+}
+
+.verificar p{
+    font-size: 12px;
+    color: #666;
+    margin-top: 3.8px;
+    margin-left: 105px;
+}
+
+.assinar{
+    margin-top: 15px;
+    font-size: 16px;
+    margin-bottom: 15px;
+}
+
+.assinar p{
+    color: #666;
+}
+
+.assinar a{
+    text-decoration: none;
+    color: white;
+}
+
+body p{
+    color: #666;
+    font-size: 12px;
+}
+
+body p a{
+    text-decoration: none;
 }
