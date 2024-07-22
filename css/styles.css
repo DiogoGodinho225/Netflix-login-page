@@ -1,0 +1,100 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    position: relative;
+}
+
+body{
+    background-image: url("/img/background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+body::before{
+   content: '';
+   background-color: black;
+   opacity: 0.3;
+   width: 100%;
+   height: 100vh;
+   position: absolute;
+   top: 0;
+   left: 0;
+   right: 0;
+   bottom: 0;
+}
+
+header a img{
+    width: 140px;
+    height: auto;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+
+.login{
+    padding: 60px;
+    z-index: 90;
+    position: relative;
+    max-width: 450px;
+    height: 550px;
+    margin-left: 50%;
+    background-color: rgb(0, 0, 0, 0.75);
+    border-radius: 10px;
+    box-sizing: border-box;
+    transform: translateX(-50%);
+}
+
+.logo-facebook img{
+    width: 20px;
+    height: auto;
+}
+
+h1{
+    color: white;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.utilizador input{
+    background-color: rgb(29, 28, 28);
+    color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+}
+
+.senha input{
+    background-color: rgb(29, 28, 28);
+    color: black;
+    width: 100%;
+    height: 50px;
+    color: white;
+    background-color: #333;
+    border: none;
+    border-radius: 5px;
+    padding-left: 15px;
+    box-sizing: border-box;
+    outline: none;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.botao input{
+    background-color: red;
+    width: 100%;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    box-sizing: border-box;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    outline: none;
+}
